@@ -59,6 +59,12 @@ class Cursor(PymongoCursor):
 
         return len(self.__data)
 
+    def __getitem__(self, index):
+        self._refresh()
+        if index >= len(self.__data) or index < 0:
+            raise Exception('Invalid index')
+        return self.__data[index]
+
 class Database(PymongoDatabase):
 
     _INSERT = 0
@@ -183,8 +189,9 @@ class Connection:
         if col is not None:
             subcol = list(col)
             to_delete = self._filter(subcol, spec)
-            col = [it for it in col if it not in to_delete]
-            database[collection] = col
+            if to_delete:
+                col = [it for it in col if it not in to_delete]
+                database[collection] = col
             
         else:
             raise Exception('Cannot delete a document from an inexistent collection')

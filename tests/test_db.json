@@ -30,17 +30,193 @@
         }, 
         {
             "_id": {
-                "$oid": "5410eab848ad1c1eb6becd65"
+                "$oid": "5411bf65bf477b2ce185b89e"
             }, 
             "name": "Test doc", 
             "description": "This is a test description for the save function"
         }, 
         {
+            "embed": {
+                "email": "test@test.com"
+            }, 
             "_id": {
-                "$oid": "5410eadc48ad1c1ebe2e0764"
+                "$oid": "5411bf79bf477b2ce7f28d65"
             }, 
             "name": "Test doc", 
             "description": "This is a test description for the save function"
+        }, 
+        {
+            "embed": {
+                "ref": {
+                    "$oid": "5411c6e0bf477b2f30b5de21"
+                }, 
+                "email": "test@test.com"
+            }, 
+            "_id": {
+                "$oid": "5411c6e0bf477b2f30b5de22"
+            }, 
+            "name": "Test doc", 
+            "description": "This is a test description for the save function"
+        }, 
+        {
+            "embed": {
+                "ref": {
+                    "$oid": "5411c715bf477b2f4163188c"
+                }, 
+                "email": "test@test.com"
+            }, 
+            "_id": {
+                "$oid": "5411c715bf477b2f4163188d"
+            }, 
+            "name": "Test doc", 
+            "description": "This is a test description for the save function"
+        }, 
+        {
+            "embed": {
+                "ref": {
+                    "$oid": "5411c722bf477b2f46ddc3c9"
+                }, 
+                "email": "test@test.com"
+            }, 
+            "_id": {
+                "$oid": "5411c722bf477b2f46ddc3ca"
+            }, 
+            "name": "Test doc", 
+            "description": "This is a test description for the save function"
+        }, 
+        {
+            "embed": {
+                "ref": {
+                    "$oid": "5411c73abf477b2f4d0ea7f0"
+                }, 
+                "email": "test@test.com"
+            }, 
+            "_id": {
+                "$oid": "5411c73abf477b2f4d0ea7f1"
+            }, 
+            "name": "Test doc", 
+            "description": "This is a test description for the save function"
+        }, 
+        {
+            "embed": {
+                "ref": {
+                    "$oid": "5411c749bf477b2f52d78cd7"
+                }, 
+                "email": "test@test.com"
+            }, 
+            "_id": {
+                "$oid": "5411c749bf477b2f52d78cd8"
+            }, 
+            "name": "Test doc", 
+            "description": "This is a test description for the save function"
+        }, 
+        {
+            "embed": {
+                "ref": {
+                    "$oid": "5411c75bbf477b2f57dca17c"
+                }, 
+                "email": "test@test.com"
+            }, 
+            "_id": {
+                "$oid": "5411c75bbf477b2f57dca17d"
+            }, 
+            "name": "Test doc", 
+            "description": "This is a test description for the save function"
+        }, 
+        {
+            "embed": {
+                "ref": {
+                    "$oid": "5411c769bf477b2f5e19b18f"
+                }, 
+                "email": "test@test.com"
+            }, 
+            "_id": {
+                "$oid": "5411c769bf477b2f5e19b190"
+            }, 
+            "name": "Test doc", 
+            "description": "This is a test description for the save function"
+        }, 
+        {
+            "embed": {
+                "ref": {
+                    "$oid": "5411c770bf477b2f610705e4"
+                }, 
+                "email": "test@test.com"
+            }, 
+            "_id": {
+                "$oid": "5411c770bf477b2f610705e5"
+            }, 
+            "name": "Test doc", 
+            "description": "This is a test description for the save function"
+        }, 
+        {
+            "embed": {
+                "ref": {
+                    "$oid": "5411c782bf477b2f683ce272"
+                }, 
+                "email": "test@test.com"
+            }, 
+            "_id": {
+                "$oid": "5411c782bf477b2f683ce273"
+            }, 
+            "name": "Test doc", 
+            "description": "This is a test description for the save function"
+        }
+    ], 
+    "reference_test_document": [
+        {
+            "_id": {
+                "$oid": "5411c6e0bf477b2f30b5de21"
+            }, 
+            "name": "Reference test name"
+        }, 
+        {
+            "_id": {
+                "$oid": "5411c715bf477b2f4163188c"
+            }, 
+            "name": "Reference test name"
+        }, 
+        {
+            "_id": {
+                "$oid": "5411c722bf477b2f46ddc3c9"
+            }, 
+            "name": "Reference test name"
+        }, 
+        {
+            "_id": {
+                "$oid": "5411c73abf477b2f4d0ea7f0"
+            }, 
+            "name": "Reference test name"
+        }, 
+        {
+            "_id": {
+                "$oid": "5411c749bf477b2f52d78cd7"
+            }, 
+            "name": "Reference test name"
+        }, 
+        {
+            "_id": {
+                "$oid": "5411c75bbf477b2f57dca17c"
+            }, 
+            "name": "Reference test name"
+        }, 
+        {
+            "_id": {
+                "$oid": "5411c769bf477b2f5e19b18f"
+            }, 
+            "name": "Reference test name"
+        }, 
+        {
+            "_id": {
+                "$oid": "5411c770bf477b2f610705e4"
+            }, 
+            "name": "Reference test name"
+        }, 
+        {
+            "_id": {
+                "$oid": "5411c782bf477b2f683ce272"
+            }, 
+            "name": "Reference test name"
         }
     ]
 }
