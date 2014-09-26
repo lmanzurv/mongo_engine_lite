@@ -161,6 +161,19 @@
             }, 
             "name": "Test doc", 
             "description": "This is a test description for the save function"
+        }, 
+        {
+            "embed": {
+                "ref": {
+                    "$oid": "5425b5d648ad1c15938774f7"
+                }, 
+                "email": "test@test.com"
+            }, 
+            "_id": {
+                "$oid": "5425b5d648ad1c15938774f8"
+            }, 
+            "name": "Test doc", 
+            "description": "This is a test description for the save function"
         }
     ], 
     "reference_test_document": [
@@ -215,6 +228,12 @@
         {
             "_id": {
                 "$oid": "5411c782bf477b2f683ce272"
+            }, 
+            "name": "Reference test name"
+        }, 
+        {
+            "_id": {
+                "$oid": "5425b5d648ad1c15938774f7"
             }, 
             "name": "Reference test name"
         }
