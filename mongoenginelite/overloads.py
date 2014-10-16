@@ -2,6 +2,9 @@ from objects import Collection, Database, Connection
 
 _db_file_name = None
 
+def new_get_connection(alias=_db_file_name, reconnect=False):
+    return Connection()
+
 @classmethod
 def new_get_collection(doc_cls):
     if not hasattr(doc_cls, '_collection') or doc_cls._collection is None:
